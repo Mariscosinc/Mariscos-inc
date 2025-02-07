@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariscos Deliciosos - Cazuelas de Mariscos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mariscos Deliciosos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#menu">Menú</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenidos a Mariscos Deliciosos</h2>
+            <p>Disfruta de las mejores cazuelas de mariscos frescos y preparados con amor.</p>
+            <a href="#menu" class="boton">Ver Menú</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Nuestro Menú</h2>
+            <div class="platos">
+                <div class="plato">
+                    <img src="cazuela1.jpg" alt="Cazuela de Mariscos Pequeña">
+                    <h3>Cazuela de Mariscos Pequeña</h3>
+                    <p>Una deliciosa mezcla de camarones, calamares, mejillones y pescado en un caldo aromático.</p>
+                    <p class="precio">$18.000</p>
+                </div>
+                <div class="plato">
+                    <img src="cazuela2.jpg" alt="Cazuela de Mariscos Grande">
+                    <h3>Cazuela de Mariscos Grande</h3>
+                    <p>Una deliciosa mezcla de camarones, calamares, mejillones y pescado en un caldo aromático.</p>
+                    <p class="precio">$35000</p>
+                </div>
+                <div class="plato">
+                    <img src="cazuela3.jpg" alt="Cazuela de Mariscos con Langosta (grande)">
+                    <h3>Cazuela de Mariscos Grande con Langosta</h3>
+                    <p>Una opción premium con langosta fresca y mariscos selectos.</p>
+                    <p class="precio">$55000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="imagenes">
+                <img src="galeria1.jpg" alt="Plato 1">
+                <img src="galeria2.jpg" alt="Plato 2">
+                <img src="galeria3.jpg" alt="Plato 3">
+                <img src="galeria4.jpg" alt="Plato 4">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Mariscos Deliciosos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
